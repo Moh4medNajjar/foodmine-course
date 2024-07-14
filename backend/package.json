@@ -3,6 +3,7 @@
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
+  "type": "module",  // Add this line
   "scripts": {
     "start": "cd src && nodemon server.ts",
     "build": "npm install && tsc"
