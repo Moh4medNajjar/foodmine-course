@@ -1,12 +1,13 @@
 {
-    "compilerOptions": {
-      "module": "CommonJS",
-      "moduleResolution": "node",
-      "strict": true,
-      "outDir": "./built",
-      "experimentalDecorators": true,
-      "emitDecoratorMetadata": true,
-      "esModuleInterop": true
-    },
-    "include": ["src/**/*"],
+  "compilerOptions": {
+    "module": "ES6",  // Change this to ES6 or ESNext
+    "moduleResolution": "node",
+    "target": "ES6",  // Optionally, set the target to ES6 or ESNext
+    "strict": true,
+    "outDir": "./dist",  // Ensure this matches your Dockerfile
+    "experimentalDecorators": true,
+    "emitDecoratorMetadata": true,
+    "esModuleInterop": true
+  },
+  "include": ["src/**/*"]
 }
