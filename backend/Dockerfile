@@ -6,6 +6,6 @@ COPY package*.json ./
 
 COPY . .
 
-EXPOSE 4200
+EXPOSE 5000
 
 CMD ["node", "server.js"]
